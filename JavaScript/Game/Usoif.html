@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Validation de edad</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+
+	<form>
+		<label>Solo tienen acceso los mayores de 18 a este contenido</label>
+		 Por favor verfica tu edad<input type="number" name="name" id="age">
+	    <button type="button" onclick="ageValidation">Age Verification</button>
+
+	</form>
+
+	<script type="text/javascript">
+
+                    document.querySelector('button').onclick = ageValidation;
+
+       	            function ageValidation(){
+                        console.log("click")
+			         	let age = document.getElementById('age');
+
+			         	if(age.value<18){
+
+			          		window.alert("No tienes la edad suficiente para acceder");
+
+			        	}
+			        	else(age.value>18)
+			        		window.alert("Tienes la edad suficiente para acceder");
+			        }
+
+		</script>
+</body>
+</html>

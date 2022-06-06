@@ -1,0 +1,125 @@
+.Cuerpo{
+    height: 1200px;
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.cuerpoInterno{
+    width: 750px;
+    height: 900px;
+    border: 3px solid black;
+    padding: 0;
+    margin-top: 70px;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    left: 6px;
+}
+.Header{
+    height: 60px;
+    width: 700px;
+    border: 3px solid black;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    align-content: center;
+    background-color: transparent;
+    left: 18px;
+}   
+h1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    left: -180px;
+}
+.Cubo1{
+    height: 240px;
+    width: 320px;
+    border: 3px solid black;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 18px;
+}
+.Cubo2{
+    height: 240px;
+    width: 320px;
+    border: 3px solid black;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 360px;
+}
+.verticalArticle{
+    height: 340px;
+    width: 220px;
+    margin-top: 310px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Footer{
+    border: 3px solid black;
+    display: flex;
+    position: absolute;
+    margin-top: 700px;
+    position: relative;
+}
+footer>div{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}
+.Circle1{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}
+.Circle1{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}
+.Circle2{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}
+.Circle3{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}
+.Circle4{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: 13%;
+}

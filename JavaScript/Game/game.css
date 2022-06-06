@@ -1,0 +1,45 @@
+body{
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 76);
+  font-family: monospace;
+}
+output{
+  display: block;
+  border: 2px solid white;
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  
+}
+input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    padding: 5px;
+}
+label{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+    margin-top: 20px;
+    padding: 5px;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 30vw;
+    height: 6vw;
+    border: 2px solid rgb(5, 210, 32);
+    border-radius: 20px;
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    margin-top: 40px;
+    padding: 5px;
+
+}

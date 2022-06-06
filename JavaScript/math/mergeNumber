@@ -1,0 +1,9 @@
+function Multiply(array){
+   let total = 1;
+   for(let i = 0; i< array.length; i++){
+       total = total * array[i];
+   }
+   return 'Total' +total;
+
+}
+document.write(Multiply([1,2,3,4,6]));
